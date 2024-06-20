@@ -1,0 +1,44 @@
+<!--処理内容：ホーム画面-->
+<!--作成日　：2024/06/14-->
+<!--作成者　：相原、吉田-->
+<!--更新日　：2024/06/14-->
+<!--済-->
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ホーム画面</title>
+    <link rel="stylesheet" href="home.css">
+    <script src = "Login.js"></script>
+</head>
+<body>
+  <script src = "Login.js"></script>
+    <div id = "greeting">
+      <script>
+        var nameMain = name.LoginName;
+        const insertG = document.querySelector('#greeting');
+        insertG.insertAdjacentHTML('beforebegin', `<h1>ようこそ${nameMain}さん :)</h1>`);
+      </script>
+    </div>
+
+    <!--就業管理表、有給申請ボタン設置-->
+    <div class = "style">
+    <p>
+        <div class="button_solid001">
+          <a href="file:///C:/Users/eath026/Desktop/%E7%AE%A1%E7%90%86%E5%8F%B0%E5%B8%B3%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/%E5%B0%B1%E6%A5%AD%E7%AE%A1%E7%90%86%E8%A1%A8/attendance_page.html"target = "_blank">就業管理表</a>
+          <br>
+          <a href="file:///C:/Users/eath026/Desktop/%E7%AE%A1%E7%90%86%E5%8F%B0%E5%B8%B3%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/%E6%9C%89%E7%B5%A6%E7%94%B3%E8%AB%8B/paid.html"target = "_blank">有給申請</a>
+        </div>
+      </div>
+    </p>
+      <!--戻るボタン設置-->
+      <div class = "back_btn">
+        <p><a href="file:///C:/Users/eath026/Desktop/%E7%AE%A1%E7%90%86%E5%8F%B0%E5%B8%B3%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0_github_test/%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3/index.html"target = "_blank">戻る
+        </a></p>
+      </div>
+
+    <noscript>JavaScriptが有効ではありません</noscript>
+</body>
+</html>

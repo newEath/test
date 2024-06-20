@@ -1,0 +1,47 @@
+<!--処理内容：就業管理表画面-->
+<!--作成日　：2024/06/14-->
+<!--作成者　：相原、吉田-->
+<!--更新日　：2024/06/14-->
+<!--済-->
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>就業管理表</title>
+    <link rel="stylesheet" href="attendance_page.css">
+</head>
+<body>
+    <!--就業管理表トップ表示-->
+    <div class="attendance_top">
+      <h2>就業管理表</h2>
+    </div>
+    
+    <div class = "style">
+    <div class = "fileSend">
+        <!--action:送信先/post：送受信形式/entype：データ形式-->
+        <form action="管理台帳" method="post" enctype="multipart/form-data" >
+          <div>
+            <input type="file" name="管理台帳">
+          </div>
+          <div>
+            <br>
+            <input type="submit" value="送信する">
+          </div>
+        </form>
+      </div>
+    </div>  
+
+    <p>
+        <div class = "move">
+            <a href="file./aaa.txt" download="aaa.txt">就業管理表テンプレート</a>
+        </div>
+    </p>
+      <!--戻るボタン設置-->
+      <div class = "back_btn">
+        <p><a href="file:///C:/Users/eath026/Desktop/%E7%AE%A1%E7%90%86%E5%8F%B0%E5%B8%B3%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0_github_test/%E3%83%9B%E3%83%BC%E3%83%A0/home_page.html"target = "_blank">戻る
+        </a></p>
+      </div>
+</body>
+</html>

@@ -16,13 +16,13 @@ body
 }
 
 /*「ログイン」の表示*/
-.login_form_top
+.create_form_top
 {
 	margin-left: 7%;
 }
 
 /*ログインフォームボタン設定*/
-.login_form_btn
+.create_form_btn
 {
     text-align: center;
 }
@@ -68,6 +68,22 @@ input
 .new_create
 {
 	text-align: center;
+}
+
+
+/*戻るボタン設定*/
+.back_btn
+{
+  margin-left: 5%;
+}
+
+/* スクリーンサイズが768px以上（PCなど）の場合に適用 */
+@media (min-width: 768px)
+{
+    .back_btn
+    {
+        margin-left: 10%
+    }
 }
 
 /*スクリーンサイズが768px未満（スマホなど）の場合に適用*/

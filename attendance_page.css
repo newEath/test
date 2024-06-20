@@ -1,0 +1,85 @@
+/*済*/
+body {
+    background-color:rgb(245, 246, 232);
+	background-image: url(pc_human.png);
+	background-repeat: no-repeat;
+	background-position: 20% -1500%;
+	background-size: 20%;    
+}
+
+/*「就業管理表」の表示*/
+.attendance_top
+{
+	margin-left: 7%;
+}
+
+.move {
+    text-align: center;
+}
+
+.move button {
+    width:20em;
+    height:6em;
+    margin: 70px;
+}
+
+#back {
+    font-size:25px;
+}
+
+.info {
+    padding: 10px;
+    padding-left:   10px;
+    margin-left:   20%;
+    margin-right:   20%;
+    margin-bottom: 10px;
+    border: 5px double #333333;
+    border-radius: 10px;
+    background-color:white;
+}
+
+.fileSend {
+    text-align: center;
+}
+
+/*戻るボタン設定*/
+.back_btn
+{
+  margin-left: 5%;
+}
+
+/* スクリーンサイズが768px以上（PCなど）の場合に適用 */
+@media (min-width: 768px)
+{
+    .back_btn
+    {
+        margin-left: 10%
+    }
+}
+
+/*スクリーンサイズが768px未満（スマホなど）の場合に適用*/
+.style
+{
+	border: #2e9913 double 5px;
+	border-radius:15px;
+	font-size: 100%;
+	padding: 15px;
+	box-shadow: 0 5px 7px 0 #c0c0c0;
+	margin-left: 2%;
+	margin-right: 7%;
+}
+
+/* スクリーンサイズが768px以上（PCなど）の場合に適用 */
+@media (min-width: 768px)
+{
+	.style
+	{
+		border: #2e9913 double 5px;
+		border-radius:15px;
+		font-size: 100%;
+		padding: 15px;
+		box-shadow: 0 5px 7px 0 #c0c0c0;
+		margin-left: 30%;
+		margin-right: 30%;
+	}
+} 
